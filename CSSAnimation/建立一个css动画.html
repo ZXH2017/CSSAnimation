@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background: red;
+			position: relative;
+			-webkit-animation-name: myfirst;
+			-webkit-animation-duration: 5s;
+			-webkit-animation-timing-function:ease ;
+			-webkit-animation-delay:1s ;
+			-webkit-animation-iteration-count:infinite;
+			-webkit-animation-play-state:running ;
+		}
+		@-webkit-keyframes myfirst{
+			0%{
+				background: red;
+				left: 0px;
+				top:0;
+			}
+			25%{
+				background: blue;
+				left: 250px;
+				top:0;
+			}
+			50%{
+				background: yellow;
+				left: 250px;
+				top:250px;
+			}
+			75%{
+				background: green;
+				left: 0px;
+				top:250px;
+			}
+			100%{
+				background: pink;
+				left: 0px;
+				top:0;
+			}
+		}
+	</style>
+	<body>
+		<div></div>
+	</body>
+</html>

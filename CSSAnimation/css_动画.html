@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				position: relative;
+				animation: anim 5s infinite alternate;
+				-webkit-animation: anim 5s infinite alternate;
+			}
+			@keyframes anim{
+				0%{background: red;left: 0px;top: 0px;}
+				20%{background: blue;left: 500px;top: 50px;}
+				40%{background: green;left: 100px;top: 100px;}
+				60%{background: yellow;left: 900px;top:190px;}
+				80%{background: pink;left: 0px;top: 300px;}
+				100%{background: red;left: 0px;top:700px;}
+			}
+			@-webkit-keyframes anim{
+				0%{background: red;left: 0px;top: 0px;}
+				20%{background: blue;left: 500px;top: 50px;}
+				40%{background: green;left: 100px;top: 100px;}
+				60%{background: yellow;left: 900px;top:190px;}
+				80%{background: pink;left: 0px;top: 300px;}
+				100%{background: red;left: 0px;top:700px;}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div></div>
+	</body>
+
+</html>

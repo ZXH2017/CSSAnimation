@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 100px;
+				background-color: blueviolet;
+				-webkit-transition: width 2s,height 2s,-webkit-transform 2s;
+				transition:  width 2s,height 2s,-webkit-transform 2s;
+				-webkit-transition-delay: 2s;
+				/*两秒后,延时,即过渡的动画效果*/
+			}
+			div:hover{
+				width: 200px;
+				height: 200px;
+				transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>转起来吧！</div>
+	</body>
+</html>
